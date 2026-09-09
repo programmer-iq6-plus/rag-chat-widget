@@ -1,7 +1,7 @@
 {
-  "name": "@quartz-community/plugin-template",
+  "name": "rag-chat-widget",
   "version": "0.1.0",
-  "description": "Template repository for Quartz community plugins.",
+  "description": "Widget chat AI untuk sidebar Quartz, tanya jawab berdasarkan catatan yang dipublish.",
   "type": "module",
   "license": "MIT",
   "author": "Quartz Community",
@@ -99,7 +99,7 @@
   "quartz": {
     "name": "plugin-template",
     "displayName": "Plugin Template",
-    "category": "transformer",
+    "category": ["component"],
     "version": "1.0.0",
     "quartzVersion": ">=5.0.0",
     "dependencies": [],
