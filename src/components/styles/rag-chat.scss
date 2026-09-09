@@ -1,0 +1,59 @@
+.rag-chat-widget {
+  border: 1px solid var(--lightgray, #ddd);
+  border-radius: 4px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  .rag-chat-widget-title {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  .rag-chat-widget-form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .rag-chat-widget-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    border: 1px solid var(--lightgray, #ddd);
+    border-radius: 4px;
+    font: inherit;
+  }
+
+  .rag-chat-widget-button {
+    padding: 6px 8px;
+    border: 1px solid var(--lightgray, #ddd);
+    border-radius: 4px;
+    cursor: pointer;
+    font: inherit;
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+
+  .rag-chat-widget-answer {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+  }
+
+  .rag-chat-widget-sources-heading {
+    margin: 4px 0 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .rag-chat-widget-sources-list {
+    margin: 4px 0 0;
+    padding-left: 20px;
+    font-size: 0.85rem;
+  }
+}

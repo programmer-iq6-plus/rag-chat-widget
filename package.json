@@ -117,8 +117,8 @@
       }
     },
     "components": {
-      "ExampleComponent": {
-        "displayName": "Example Component",
+      "RagChatWidget": {
+        "displayName": "RAG Chat Widget",
         "defaultPosition": "right",
         "defaultPriority": 50
       }

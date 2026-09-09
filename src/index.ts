@@ -1,7 +1,7 @@
 export { ExampleTransformer } from "./transformer";
 export { ExampleFilter } from "./filter";
 export { ExampleEmitter } from "./emitter";
-export { default as ExampleComponent } from "./components/ExampleComponent";
+export { default as RagChatWidget } from "./components/RagChatWidget";
 
 export type {
   ExampleTransformerOptions,
@@ -9,7 +9,7 @@ export type {
   ExampleEmitterOptions,
 } from "./types";
 
-export type { ExampleComponentOptions } from "./components/ExampleComponent";
+export type { RagChatWidgetOptions } from "./components/RagChatWidget";
 
 // Re-export shared types from @quartz-community/types
 export type {
